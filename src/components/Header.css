@@ -1,0 +1,21 @@
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+nav button {
+  margin: 0 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: white;
+  color: #4CAF50;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #45a049;
+  color: white;
+}

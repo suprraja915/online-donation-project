@@ -1,0 +1,57 @@
+.donation-form-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: left;
+}
+
+.donation-form-container h2 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+.donation-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.donation-form-container label {
+  margin: 10px 0 5px;
+}
+
+.donation-form-container input,
+.donation-form-container select {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.donation-form-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.donation-form-container button:hover {
+  background-color: #45a049;
+}
+
+.upi-scanner {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.upi-scanner img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}

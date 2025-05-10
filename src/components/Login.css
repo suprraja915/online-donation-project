@@ -1,0 +1,73 @@
+/* Import Google Font in your index.html or add this in your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f7f6;
+  flex-direction: column;
+}
+
+.platform-name {
+  font-size: 3rem; /* Larger font size */
+  color: #4CAF50; /* Match your theme color */
+  margin-bottom: 20px; /* Space between title and form */
+  text-align: center;
+  font-weight: 700; /* Bold font */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.login-form {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #4CAF50;
+  font-weight: 700; /* Bold font */
+}
+
+.login-form label {
+  display: block;
+  margin: 15px 0 5px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px; /* Space between inputs */
+}
+
+.login-form button {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.login-form button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
